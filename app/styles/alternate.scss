@@ -1,7 +1,7 @@
 $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 // Override Bootstrap Variables
-@import "variables";
+@import "variables-alternate";
 
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
@@ -9,8 +9,8 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 // Site-specific Styles
 // Additional stylesheets added below
-@import "content";
-@import "mixins";
+@import "content-alternate";
+@import "mixins-alternate";
 
 .browsehappy {
   margin: 0.2em 0;

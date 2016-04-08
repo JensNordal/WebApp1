@@ -17,7 +17,7 @@
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
+    <link id="pageStyle" rel="stylesheet" type="text/css" href="styles/main.css">
     <!-- endbuild -->
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
@@ -63,6 +63,9 @@
           
         </div>
       </div>
+
+      <button id="stylesheet1" onclick="swapStyleSheet('styles/main.css')">Default Style Sheet</button>
+      <button id="stylesheet2" onclick="swapStyleSheet('styles/alternate.css')">Alternate Style Sheet</button>
 
       <div class="footer">
         <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
