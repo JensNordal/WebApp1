@@ -1,8 +1,15 @@
 $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
+// Override Bootstrap Variables
+@import "variables";
+
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
+
+// Site-specific Styles
+// Add additional stylesheets below
+@import "content";
 
 .browsehappy {
   margin: 0.2em 0;
@@ -41,7 +48,6 @@ body {
 /* Custom page footer */
 .footer {
   padding-top: 19px;
-  color: #337AB7;
   border-top: 1px solid #e5e5e5;
 }
 
@@ -49,7 +55,7 @@ body {
   margin: 30px 0;
 }
 
-/* Scroll to Top Button*/
+/* Scroll to Top Button */
 .cd-top {
   display: inline-block;
     height: 40px;
@@ -72,12 +78,12 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
+  h1 {
+    color: #337ab7;
+  }
   .btn {
     font-size: 21px;
     padding: 14px 24px;
-  }
-  h1 {
-    color: #337AB7;
   }
 }
 

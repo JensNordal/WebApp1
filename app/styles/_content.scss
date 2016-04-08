@@ -1,0 +1,22 @@
+
+.marketing {
+	a {
+		&:link, &:active, &:visited {
+			color: $brand-warning;
+		}
+		&:hover {
+			color: $link-color;
+		}
+	}
+    h4 {
+        color: $brand-warning;
+    }
+    p {
+        color: $brand-primary;
+    }
+}
+
+.container .jumbotron {
+	@include border-top-radius(0px);
+	@include border-bottom-radius(50px);
+}
