@@ -32,8 +32,8 @@ function initate() {
     var style1 = document.getElementById("stylesheet1");
     var style2 = document.getElementById("stylesheet2");
 
-    style1.onclick = function () { swapStyleSheet("styles/main.css") };
-    style2.onclick = function () { swapStyleSheet("styles/alternate.css"); };
+    style1.onclick = function () { swapStyleSheet("../styles/main.css") };
+    style2.onclick = function () { swapStyleSheet("../styles/alternate.css"); };
 }
 
 window.onload = initate;
